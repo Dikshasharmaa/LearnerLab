@@ -11,6 +11,7 @@ public class Instructor extends Person implements Teacher{
 
     @Override
     public void teach(Learner learner, double numberOfHours) {
+        learner.learn(numberOfHours);
 
     }
 
